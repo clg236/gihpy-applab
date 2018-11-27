@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import Input from './Components/Input'
 
@@ -11,7 +10,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Input onInputSubmit={this.handleSubmit} />
+        <Input onInputSubmit={this.handleInputSubmit} />
       </div>
     );
   }
